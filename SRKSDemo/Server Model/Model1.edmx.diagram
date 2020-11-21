@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2e8ba6dd2cc346359ecd9f511a3b3ae2" Name="Diagram1">
+        <EntityTypeShape EntityType="i_facility_unimechModel.alarm_history_master" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configuration_tblpmchecklist" Width="1.5" PointX="5.25" PointY="154.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configuration_tblpmcheckpoint" Width="1.5" PointX="8.25" PointY="154.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configuration_tblprimitivemaintainancescheduling" Width="1.5" PointX="5.25" PointY="147.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configuration_tblsensorgroup" Width="1.5" PointX="19.5" PointY="187.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configurationtblmachinesensor" Width="1.5" PointX="21.75" PointY="153.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configurationtblsensordatalink" Width="1.5" PointX="21" PointY="108.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.configurationtblsensormaster" Width="1.5" PointX="27.75" PointY="140.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.frommail" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.Graph_Data" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.handle_no_ping" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.IOTGatwayPacketsData" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.jobcard_details" Width="1.5" PointX="6.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.LossDetail" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.mailmaster" Width="1.5" PointX="8.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.message_code_master" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.message_history_master" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.monthdata" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.operationlog" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.parameter" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.parameters_master" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcb" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcb_details" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcb_parameters" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcbdaq" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcbdaqin_tbl" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcbdaqin_tblNew" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.pcbdps_master" Width="1.5" PointX="16.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.program_master" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.sharathtable" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.smtpdetail" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_autoreport_log" Width="1.5" PointX="7.5" PointY="166" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_autoreportbasedon" Width="1.5" PointX="3" PointY="157.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_autoreportsetting" Width="1.5" PointX="5.25" PointY="159.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_autoreporttime" Width="1.5" PointX="3" PointY="160.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_axisdet" Width="1.5" PointX="18.75" PointY="109.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_axisdetails1" Width="1.5" PointX="10.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_axisdetails2" Width="1.5" PointX="12.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_CycleTimeAnalysis" Width="1.5" PointX="18.75" PointY="113.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_deletedProgDet" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_genericfilepath" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_livecbmparameters" Width="1.5" PointX="18.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_multiwoselection" Width="1.5" PointX="21" PointY="162" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_OEEDetails" Width="1.5" PointX="18.75" PointY="119.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_oeereportasdivision" Width="1.5" PointX="18.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_ProdAndonDisp" Width="1.5" PointX="21" PointY="212.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_ProdManMachine" Width="1.5" PointX="24" PointY="214" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_ProdOrderLosses" Width="1.5" PointX="18.75" PointY="134" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_reportmaster" Width="1.5" PointX="3" PointY="164.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_SaveNCProgVer" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_servodetails" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_UtilReport" Width="1.5" PointX="18.75" PointY="137.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblactivitylog" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblAndonDispDet" Width="1.5" PointX="8.25" PointY="149.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblAndonImageTextScheduledDisplay" Width="1.5" PointX="8.25" PointY="159.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblapp_paths" Width="1.5" PointX="4.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblatccounter" Width="1.5" PointX="20.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblbottelneck" Width="1.5" PointX="11.25" PointY="153.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblbreakdown" Width="1.5" PointX="22.5" PointY="127.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblBreakdowncode" Width="1.5" PointX="22.5" PointY="140" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblBreakDownTickect" Width="1.5" PointX="24.75" PointY="151.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblcell" Width="1.5" PointX="11.25" PointY="146.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblcellpart" Width="1.5" PointX="13.5" PointY="147.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblcustomer" Width="1.5" PointX="6.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbldailyprodstatu" Width="1.5" PointX="18.75" PointY="149.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbldaytiming" Width="1.5" PointX="20.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblddl" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblDDLStatu" Width="1.5" PointX="16.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbldowntimecategory" Width="1.5" PointX="10.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbldowntimedetail" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblemailescalation" Width="1.5" PointX="13.5" PointY="153.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblendcode" Width="1.5" PointX="18.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblescalationlog" Width="1.5" PointX="22.5" PointY="122.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblgenericworkcode" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblgenericworkentry" Width="1.5" PointX="8" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblhistpm" Width="1.5" PointX="20.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblhmiscreen" Width="1.5" PointX="18.75" PointY="159.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblholdcode" Width="1.5" PointX="8.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblHolidayManagment" Width="1.5" PointX="10.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblholiday" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblHolidayTypeMaster" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllivedailyprodstatu" Width="1.5" PointX="18.75" PointY="168.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllivehmiscreen" Width="1.5" PointX="18.75" PointY="173" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllivelossofentry" Width="1.5" PointX="22.5" PointY="132.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllivemanuallossofentry" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllivemode" Width="1.5" PointX="21.75" PointY="146" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllivemultiwoselection" Width="1.5" PointX="21" PointY="175.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllossescode" Width="1.5" PointX="20.25" PointY="125.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbllossofentry" Width="1.5" PointX="22.5" PointY="102.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmachineaxisdetail" Width="1.5" PointX="22.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmachinecategory" Width="1.5" PointX="22.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmachinedetail" Width="1.5" PointX="16.5" PointY="145.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmailid" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmaintainanceProdBrDetail" Width="1.5" PointX="0.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmanuallossofentry" Width="1.5" PointX="2.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmasterparts_st_sw" Width="1.5" PointX="12.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmimic" Width="1.5" PointX="18.75" PointY="183.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmode" Width="1.5" PointX="23.75" PointY="160.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmodetemp" Width="1.5" PointX="24.75" PointY="144.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmodulehelper" Width="1.5" PointX="14.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmodulemaster" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmodule" Width="1.5" PointX="29.75" PointY="168.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblmultipleworkorder" Width="1.5" PointX="26.75" PointY="160.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblNcProgramTransferMain" Width="1.5" PointX="18.75" PointY="206.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblnetworkdetailsforddl" Width="1.5" PointX="24.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbloeedashboardfinalvariable" Width="1.5" PointX="24.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbloeedashboardvariable" Width="1.5" PointX="16.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbloeedashboardvariablestoday" Width="1.5" PointX="24.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblOperatorDashboard" Width="1.5" PointX="18.75" PointY="210.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbloperatordetail" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblOperatorHeader" Width="1.5" PointX="18.75" PointY="214.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblOperatorLoginDetail" Width="1.5" PointX="16.5" PointY="140" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblOperatorMachineDetail" Width="1.5" PointX="18.75" PointY="145.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblpartlearningreport" Width="1.5" PointX="20.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblpart" Width="1.5" PointX="21" PointY="115.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblpartscountandcutting" Width="1.5" PointX="18.75" PointY="222.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblpartwisesp" Width="1.5" PointX="22.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblplannedbreak" Width="1.5" PointX="8" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblplant" Width="1.5" PointX="0.75" PointY="130.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblpmsdetail" Width="1.5" PointX="24.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.TblPMSNotification_Master" Width="1.5" PointX="18.75" PointY="153.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblPrecentColour" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblPresentTool" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblpriorityalarm" Width="1.5" PointX="4.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblProdPlanMaster" Width="1.5" PointX="26.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblprogramtransferhistory" Width="1.5" PointX="26.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblrejectqty" Width="1.5" PointX="30" PointY="144.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblrejectreason" Width="1.5" PointX="27.75" PointY="151.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblreportholder" Width="1.5" PointX="26.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblReworkReason" Width="1.5" PointX="26.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblrolemodulelink" Width="1.5" PointX="32" PointY="163.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblrole" Width="1.5" PointX="14.25" PointY="140.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblSAPInput" Width="1.5" PointX="26.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblsendermailid" Width="1.5" PointX="26.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblSetupMaint" Width="1.5" PointX="27.75" PointY="146.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshift_breaks" Width="1.5" PointX="6.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshift_mstr" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshiftdetail" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshiftdetails_machinewise" Width="1.5" PointX="18.75" PointY="237.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshiftmethod" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshiftplanner" Width="1.5" PointX="29.75" PointY="156.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblShiftUtilReport" Width="1.5" PointX="18.75" PointY="247.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblshop" Width="1.5" PointX="3" PointY="176.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblStdToolLife" Width="1.5" PointX="8.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblToolCounter" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbltoollifeoperator" Width="1.5" PointX="18.75" PointY="251.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbltosapfilepath" Width="1.5" PointX="28.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbltosapshopname" Width="1.5" PointX="28.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblunit" Width="1.5" PointX="18.75" PointY="104.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbluser" Width="1.5" PointX="29.75" PointY="163.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblwolossess" Width="1.5" PointX="28.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblworeport" Width="1.5" PointX="28.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblworkmode" Width="1.5" PointX="30.75" PointY="149.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblworkmodemimic" Width="1.5" PointX="18.75" PointY="269" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblworkorderentry" Width="1.5" PointX="18.75" PointY="273.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.weekdata" Width="1.5" PointX="28.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.shift_master" Width="1.5" PointX="0.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_livecbmdetails" Width="1.5" PointX="10.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tbl_livetblsensorvalue" Width="1.5" PointX="12.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblAndonDisplayRotate" Width="1.5" PointX="22.75" PointY="29.75" IsExpanded="true" />
+        <AssociationConnector Association="i_facility_unimechModel.cellID_tblcell_tblpmchecklist" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.plantID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.pmcpID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.shopID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_cellID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.plantid_tblplant" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.shopid_tblshop" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.cellid_tblprimitivemaintainancescheduling2223" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.machineID_tblprimitivemaintainancescheduling2223" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.PlantID_tblprimitivemaintainancescheduling2223" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.ShopID_tblprimitivemaintainancescheduling2223" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblkl_tblMachineSensor" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.SID_FK_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbllk_tblMachineSensor" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.axisid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.logfreqid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.unit" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.uid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreport_log_AutoReportID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_BasedOnID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_ReportCellID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_ReportID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_ReportPlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_ReportShopID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_ReportTimeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_autoreportsetting_ReportWorkCentreID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbl_axisdet_AxisMachineIDIdx" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_CycleTimeAnalysis_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.fkHMIID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_OEEDetails_tbl_MachineDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_ProdAndonDisp_tbllivehmiscreen" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_ProdAndonDisp_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_ProdAndonDisp_tblworkorderentry" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_ProdManMachine_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_ProdManMachine_tblworkorderentry" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_ProdOrderLosses_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbl_UtilReport_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblAndonDispDEt_tblcell" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblAndonDispDEt_tblplant" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblAndonDispDEt_tblshop" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblAndonImageTextScheduledDisplay_tblcell" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblAndonImageTextScheduledDisplay_tblplant" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblAndonImageTextScheduledDisplay_tblshop" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.CellID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.cpid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.MachineID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.PlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.ShopID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmode_tblbreakdown" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmode_tblbreakdown1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmodetemp_tblbreakdown" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblworkmode_tblbreakdown" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblbreakdown_BreakdowncodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblBreakDownTickect_tbllossescodes" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblBreakDownTickect_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblBreakDownTickect_tblOperatorLoginDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblBreakDownTickect_tblOperatorLoginDetails1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.CellID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_TblPMSNotification_Master_tblcell" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblcell_PlantsId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblcell_ShopId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_CellIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmachinedetails_CellIDtblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmultipleworkorder_CellIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblrejectreason_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshiftplanner_CellIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbldailyprodstatus_MachineID1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbldowntimedetails_tbldowntimedetails_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_PlantIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_ReasonLevel1FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_ReasonLevel2FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_ReasonLevel3FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_ShopIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblemailescalation_WCIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblescalationlog_EscalationLossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblgenericworkentry_GenericWorkID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.MachineIDhmi" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbllivedailyprodstatus_MachineIDLDPS" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbllivehmiscreen_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.fkwoliveHMIID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbllivelossofentry_tbllossescodes" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmode_tbllossescodes1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmode_tblmachinedetails1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmode_tbllossescodes" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmodetemp_tbllossescodes" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblSetupMaint_tbllossescodes" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblworkmode_tbllossescodes" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tbllossofentry_LossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmode_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblmodetemp_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblNcProgramTransferMain_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblOperatorDashboard_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblOperatorHeader_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblOperatorMachineDetails_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_TblPMSNotification_Master_tblmachinedetails1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblSetupMaint_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblShiftUtilReport_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tbltoollifeoperator_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblworkmode_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblworkmodemimics_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblworkorderentry_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.MachineID_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmachinedetails_PlantIDtblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmachinedetails_ShopIDtblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmimics_MachineID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmultipleworkorder_WCIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblrejectreason_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshiftdetails_machinewise_MachineIDShiftWise" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshiftplanner_MachineIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblusers_MachineFkforUser" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblrolemodulelink_tblmodules" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmultipleworkorder_PlantIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblmultipleworkorder_ShopIdtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblOperatorLoginDetails_tblroles" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblOperatorMachineDetails_tblOperatorLoginDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblparts_tblparts" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblparts_tblunit" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblplannedbreak_shiftbreak" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_TblPMSNotification_Master_tblplant2" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshiftplanner_PlantIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshop_PlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_TblPMSNotification_Master_tblshop" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblrejectqty_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblrolemodulelink_tblroles" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblrolemodulelink_InsertedBy_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblusers_primaryrole" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.FK_tblusers_secondary" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblusers_PrimaryRole" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblusers_SecondaryRole" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshiftdetails_ShiftMethodIDshiftmethod" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_unimechModel.tblshiftplanner_ShopIDshiftplanner" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="i_facility_unimechModel.tblalarmdetail" Width="1.5" PointX="25.375" PointY="29.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
