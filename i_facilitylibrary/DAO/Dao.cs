@@ -5476,8 +5476,12 @@ namespace i_facilitylibrary.DAO
             try
             {
                 Repository<tbllivehmiscreen> lista = new Repository<tbllivehmiscreen>();
+                DateTime datee = Convert.ToDateTime(Time);
+                string timee = datee.ToString("yyyy-MM-dd HH:mm:ss");
 
-                string qry = "UPDATE " + databaseName + ".[tbllivehmiscreen] set Status =" + Status + ",isWorkInProgress =" + isWorkInProgress + ",Time='" + Time + "'WHERE HMIID =" + HMIID + "";
+
+
+                string qry = "UPDATE " + databaseName + ".[tbllivehmiscreen] set Status =" + Status + ",isWorkInProgress =" + isWorkInProgress + ",Time='" + timee + "'WHERE HMIID =" + HMIID + "";
                 res = lista.update(qry, _connectionFactory.GetConnection);
             }
             catch (Exception ex)
@@ -6089,7 +6093,10 @@ namespace i_facilitylibrary.DAO
             try
             {
                 Repository<tbllivehmiscreen> lista = new Repository<tbllivehmiscreen>();
-                string query = "Update  " + databaseName + ".tbllivehmiscreen SET Status = 2,isWorkInProgress = 1,SplitWO = 'No',Time='" + Time + "' WHERE HMIID =" + hmiid + " ";
+
+                string timee = Time.ToString("yyyy-MM-dd HH:mm:ss");
+
+                string query = "Update  " + databaseName + ".tbllivehmiscreen SET Status = 2,isWorkInProgress = 1,SplitWO = 'No',Time='" + timee + "' WHERE HMIID =" + hmiid + " ";
                 res = _connectionFactory.GetConnection.ExecuteAsync(query).Result;
             }
             catch (Exception ex)
@@ -7053,7 +7060,10 @@ namespace i_facilitylibrary.DAO
             {
                 Repository<tbllivehmiscreen> lista = new Repository<tbllivehmiscreen>();
 
-                string qry = "UPDATE " + databaseName + ".[tbllivehmiscreen] set batchNo = " + maxBatchNo + ",Date='" + st + "',isUpdate=1,Status=0,isWorkOrder=0 where HMIID=" + hmid + "";
+                string datte = st.ToString("yyyy-MM-dd HH:mm:dd");
+
+
+                string qry = "UPDATE " + databaseName + ".[tbllivehmiscreen] set batchNo = " + maxBatchNo + ",Date='" + datte + "',isUpdate=1,Status=0,isWorkOrder=0 where HMIID=" + hmid + "";
                 res = lista.update(qry, _connectionFactory.GetConnection);
             }
             catch (Exception ex)
