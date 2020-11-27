@@ -1003,6 +1003,7 @@
     <Content Include="Content\calendar\js\languages\bootstrap-year-calendar.uk.js" />
     <Content Include="Content\calendar\js\popper.min.js" />
     <Content Include="Content\html2canvas.js" />
+    <Content Include="Content\jquery.datetimepicker.css" />
     <Content Include="Content\O1300.txt" />
     <Content Include="Content\O4000.txt" />
     <Content Include="Content\O4001.txt" />

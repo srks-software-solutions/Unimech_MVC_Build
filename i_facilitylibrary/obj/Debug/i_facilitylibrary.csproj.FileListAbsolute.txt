@@ -45,6 +45,7 @@ E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplica
 E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\bin\Debug\i_facilitylibrary.pdb
 E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\bin\Debug\Dapper.dll
 E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\bin\Debug\Dapper.xml
+E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\obj\Debug\i_facilitylibrary.csprojAssemblyReference.cache
 E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\obj\Debug\i_facilitylibrary.csproj.CopyComplete
 E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\obj\Debug\i_facilitylibrary.dll
 E:\Unimech_New_08-11-20\Shakthi WeApplication20200213-original\Shakthi WeApplication20200213\i_facilitylibrary\obj\Debug\i_facilitylibrary.pdb
